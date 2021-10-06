@@ -1,0 +1,32 @@
+{
+  "name": "tpl-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackphoenix42/tpl-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackphoenix42/tpl-backend/issues"
+  },
+  "homepage": "https://github.com/blackphoenix42/tpl-backend#readme",
+  "dependencies": {
+    "@pinata/sdk": "^1.1.23",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
